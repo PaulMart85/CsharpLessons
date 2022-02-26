@@ -1,0 +1,15 @@
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\bin\Debug\net6.0\Proj4.exe
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\bin\Debug\net6.0\Proj4.deps.json
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\bin\Debug\net6.0\Proj4.runtimeconfig.json
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\bin\Debug\net6.0\Proj4.dll
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\bin\Debug\net6.0\Proj4.pdb
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.csproj.AssemblyReference.cache
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.AssemblyInfoInputs.cache
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.AssemblyInfo.cs
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.csproj.CoreCompileInputs.cache
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.dll
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\refint\Proj4.dll
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.pdb
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\Proj4.genruntimeconfig.cache
+C:\Users\PandA\Downloads\Desktop\1\CsharpLessons\Seminar1_C#\Proj4\obj\Debug\net6.0\ref\Proj4.dll
