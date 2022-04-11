@@ -18,30 +18,35 @@ int[,] PascalTriangle(int level)
     return pasTr;
 }
 
-void PrintMatrix(int[,] matr)
+string DigIndend(int value, string indend = "")
 {
-    for (int i = 0; i < matr.GetLength(0); i++)
-    {
-        for (int j = 0; j < matr.GetLength(1); j++)
-            Console.Write($"{matr[i,j]} ");
-        Console.WriteLine();
-    }
-    Console.WriteLine();    
+    return value==0 ? indend : DigIndend(value / 10, indend + " ");
+}
+
+string FinIndend(int len, string indend = " ")
+{
+    return len==0 ? indend : FinIndend(len-1, indend + " ");
 }
 
 void PrintPascalTriangle(int[,] matr)
 {
-    int i, j;
-    for (i = 0; i < matr.GetLength(0); i++)
-    {
-        for (int k = 0; k < matr.GetLength(0)-1-i; k++)
-            Console.Write($" ");
-        for (j = 0; j < i+1; j++)
-            Console.Write($"{matr[i,j]} ");
-        Console.WriteLine();
+    int n = matr.GetLength(0);
+    string[] pt = new string[n];
+
+    for (int i = n-1; i > 0; i--)
+        for (int j = 0; j < i+1; j++)
+            pt[i] += $"{matr[i,j]}{DigIndend(matr[i-1,j])}"; 
+    pt[0] = "1";
+
+    int shift = (double)n%2 == 0 ? 1 : 0;
+    int sp = pt[n-1].Length/2 - shift;
+
+    for (int i = 0; i < n-1; i++)    {
+        Console.WriteLine($"{FinIndend(sp - pt[i].Length/2)}{pt[i]}");
     }
+
     Console.WriteLine();  
 }
 
 Console.Clear();
-PrintPascalTriangle(PascalTriangle(4));
+PrintPascalTriangle(PascalTriangle(20));
